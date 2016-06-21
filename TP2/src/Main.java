@@ -10,20 +10,20 @@ public class Main {
 
 		public static void main(String[] args) 
 		{
-	//	Scanner s = new Scanner(System.in);
+	
 		Matematicas m1 = new Matematicas();
 		Matematicas m2 = new Matematicas();
-		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
-		
+		BufferedReader valor = new BufferedReader(new InputStreamReader(System.in));
+
 		System.out.println("Ingrese el valor 1");
-		int valor = Integer.parseInt(entrada.readLine());
 		System.out.println(valor);
 		System.out.println(m1.valor);
+		m1.setSuma(valor);
 		
-		System.out.println("Ingrese el valor 2");
-		valor = Integer.parseInt(entrada.readLine());
+		System.out.println("Ingrese el valor 1");
 		System.out.println(valor);
 		System.out.println(m2.valor);
+		m2.setSuma(valor);
 			
 		System.out.println(m1.valor + m2.valor);
 
