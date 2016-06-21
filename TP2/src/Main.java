@@ -13,7 +13,7 @@ public class Main {
 	
 		Matematicas m1 = new Matematicas();
 		Matematicas m2 = new Matematicas();
-		BufferedReader valor = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader double valor = new BufferedReader(new InputStreamReader(System.in));
 
 		System.out.println("Ingrese el valor 1");
 		System.out.println(valor);
